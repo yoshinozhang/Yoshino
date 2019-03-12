@@ -1,8 +1,8 @@
 package com.zsc.jdb;
 
- public interface jdbcServiceInterface {
+public interface jdbcServiceInterface {
 
- public  int insert(Student student);
+  public int insert(Student student);
 
- public String select(String name);
+  public String select(String name);
 }
